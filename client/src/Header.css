@@ -1,0 +1,31 @@
+#header {
+  background-color: #282c34;
+  min-height: 10vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  color: white;
+}
+
+#header h1, #header a {
+  font-size: calc(30px + 2vmin);
+}
+
+#header-link, #header-space {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+#header-link a {
+  font-size: 24px;
+  text-decoration: none;  
+  color: white;  
+}
+
+
+#title-container {
+  flex-grow: 1;
+  text-align: center;
+  margin-right: 20px;
+}
+
